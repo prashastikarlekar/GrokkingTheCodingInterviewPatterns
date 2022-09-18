@@ -49,7 +49,7 @@ def detectCycle(head):
 # Using set
 
 
-def detextCycleII(head):
+def detectCycleII(head):
     if not head:
         return None
     visited = set()
