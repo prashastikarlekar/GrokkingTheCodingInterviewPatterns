@@ -12,6 +12,7 @@
 # k > 1
 # Return true if there is a cycle in nums, or false otherwise.
 
+
 def circularArray(nums):
     for i in range(len(nums)):
         forward = nums[i] >= 0
