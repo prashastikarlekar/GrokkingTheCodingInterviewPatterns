@@ -7,8 +7,24 @@
 # Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
 # Given the integer array fruits, return the maximum number of fruits you can pick.
 
-# def totalFruit(fruits):
+from collections import defaultdict
+
+
+def totalFruit(fruits):
+    max_fruits = 0
+    start, end = 0, 0
+    hashmap = defaultdict()
+    while end < len(fruits):
+        hashmap[fruits[end]] = end
+        end += 1
+        if len(hashmap) == 3:
+            leftmost = min(hashmap.values())
+            del hashmap[fruits[leftmost]]
+            start = leftmost+1
+        max_fruits = max(max_fruits, end-start)
+    return max_fruits
 
 
 if __name__ == "__main__":
     fruits = [1, 2, 1]
+    print(totalFruit(fruits))
