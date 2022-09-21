@@ -1,7 +1,7 @@
 # GrokkingTheCodingInterviewPatterns
 This is a collection of coding problems that summarize the grokking the coding interview patterns course on educative.io.
 
-**Pattern: Two Pointers
+**Pattern: Two Pointers**
 
 https://leetcode.com/problems/two-sum/
 
@@ -27,7 +27,7 @@ https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 
 
 
-**Pattern: Fast & Slow pointers
+**Pattern: Fast & Slow pointers**
 
 https://leetcode.com/problems/linked-list-cycle/
 
@@ -45,7 +45,7 @@ https://leetcode.com/problems/circular-array-loop/
 
 
 
-**Pattern: Sliding Window
+**Pattern: Sliding Window**
 
 https://leetcode.com/problems/maximum-subarray/ # Close enough
 
