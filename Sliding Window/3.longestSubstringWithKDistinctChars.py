@@ -2,7 +2,6 @@
 
 # Given a string s and an integer k, return the length of the longest substring of s that contains at most k distinct characters.
 from collections import defaultdict
-from turtle import left
 
 
 # time limit exceeded, but works for all test cases

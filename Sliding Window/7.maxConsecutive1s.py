@@ -4,19 +4,19 @@
 
 
 def maxOnes(nums, k):
-    max_ones, max_length=0,0
-    start,end=0,0
-    while end<len(nums):
-        if nums[end]==1: max_ones+=1
-        end+=1
+    max_ones, max_length = 0, 0
+    start, end = 0, 0
+    while end < len(nums):
+        if nums[end] == 1:
+            max_ones += 1
+        end += 1
         countZeroes = end-start-max_ones
         if countZeroes > k:
-            if nums[start]==1: max_ones-=1
-            start+=1
-        max_length=max(max_length,end-start)
+            if nums[start] == 1:
+                max_ones -= 1
+            start += 1
+        max_length = max(max_length, end-start)
     return max_length
-
-        
 
 
 if __name__ == "__main__":
