@@ -2,7 +2,23 @@
 
 # Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference rooms required.
 
+# Heap Implementation:
+from heapq import *
+
+
 def meetingRooms(intervals):
+    minHeap = []
+    intervals.sort(key=lambda x: x[0])
+    heappush(minHeap, intervals[0][1])
+    for i in intervals[1:]:
+        if minHeap[0] <= i[0]:
+            heappop(minHeap)
+        heappush(minHeap, i[1])
+    return len(minHeap)
+
+
+# Pointer based Implementation
+def meetingRoomsI(intervals):
     meetingRooms = 0
     start_timings = sorted([i[0] for i in intervals])
     end_timings = sorted([i[1] for i in intervals])
@@ -13,7 +29,6 @@ def meetingRooms(intervals):
             end += 1
         meetingRooms += 1
         start += 1
-
     return meetingRooms
 
 
