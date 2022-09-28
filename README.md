@@ -1,4 +1,7 @@
+<!-- @format -->
+
 # GrokkingTheCodingInterviewPatterns
+
 This is a collection of coding problems that summarize the grokking the coding interview patterns course on educative.io.
 
 **Pattern: Two Pointers**
@@ -25,8 +28,6 @@ This is a collection of coding problems that summarize the grokking the coding i
 
 - https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 
-
-
 **Pattern: Fast & Slow pointers**
 
 - https://leetcode.com/problems/linked-list-cycle/
@@ -42,8 +43,6 @@ This is a collection of coding problems that summarize the grokking the coding i
 - https://leetcode.com/problems/reorder-list/
 
 - https://leetcode.com/problems/circular-array-loop/
-
-
 
 **Pattern: Sliding Window**
 
@@ -68,3 +67,15 @@ This is a collection of coding problems that summarize the grokking the coding i
 - https://leetcode.com/problems/minimum-window-substring/
 
 - https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+
+**Pattern: Merge Intervals**
+
+- https://leetcode.com/problems/merge-intervals/
+
+- https://leetcode.com/problems/insert-interval/
+
+- https://leetcode.com/problems/interval-list-intersections/
+
+- https://leetcode.com/problems/meeting-rooms-ii/
+
+- https://leetcode.com/problems/employee-free-time/
