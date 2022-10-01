@@ -54,6 +54,7 @@ def reverseKGroup(head, k):
     while current:
         length += 1
         current = current.next
+    # started from 1 because we are following 1-indexed approach in reverseBetween as we are comparing it with i-1
     left, right = 1, k
     while right <= length:
         head = reverseBetween(head, left, right)
@@ -70,5 +71,5 @@ if __name__ == "__main__":
     llist.head.next.next.next = Node(4)
     llist.head.next.next.next.next = Node(5)
     # llist.printLL()
-    llist.head = reverseKGroup(llist.head)
+    llist.head = reverseKGroup(llist.head, 2)
     llist.printLL()
