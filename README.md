@@ -79,3 +79,45 @@ This is a collection of coding problems that summarize the grokking the coding i
 - https://leetcode.com/problems/meeting-rooms-ii/
 
 - https://leetcode.com/problems/employee-free-time/
+
+**Pattern: Cyclic Sort**
+
+-- Cyclic Sort
+
+-- https://leetcode.com/problems/missing-number/
+
+-- https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+
+-- https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+-- combine https://leetcode.com/problems/find-the-duplicate-number/ and https://leetcode.com/problems/missing-number/
+
+-- https://leetcode.com/problems/first-missing-positive/
+
+-- https://leetcode.com/problems/kth-missing-positive-number/
+
+**Pattern: In-place Reversal of a LinkedList**
+
+-- https://leetcode.com/problems/reverse-linked-list/
+
+-- https://leetcode.com/problems/reverse-linked-list-ii/
+
+-- https://leetcode.com/problems/reverse-nodes-in-k-group/
+
+-- https://leetcode.com/problems/rotate-list/
+
+**Pattern: Tree Breadth First Search**
+
+-- https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+-- https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+
+-- https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+
+-- https://leetcode.com/problems/minimum-depth-of-binary-tree/
+
+-- https://leetcode.com/problems/inorder-successor-in-bst/ # Close, not exact
+
+-- https://leetcode.com/problems/populating-next-right-pointers-in-each-node/ # Close, grokk assumes non-perfect tree
+
+-- https://leetcode.com/problems/binary-tree-right-side-view/

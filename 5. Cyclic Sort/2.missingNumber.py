@@ -15,11 +15,6 @@ def missingNumber(nums):
             return i
     return len(nums)
 
-    # for i in range(len(nums)):
-    #     if nums[i] != i:
-    #         return i
-    # return len(nums)
-
 
 if __name__ == "__main__":
     nums = [3, 0, 1]
