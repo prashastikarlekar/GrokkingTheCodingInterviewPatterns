@@ -41,7 +41,7 @@ def rotateList(head, k):
     while current:
         length += 1
         current = current.next
-    # print(length)
+    # print(length)  
     runs = k % length
     while runs:
         newHead = rotate(newHead)

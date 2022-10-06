@@ -121,3 +121,19 @@ This is a collection of coding problems that summarize the grokking the coding i
 -- https://leetcode.com/problems/populating-next-right-pointers-in-each-node/ # Close, grokk assumes non-perfect tree
 
 -- https://leetcode.com/problems/binary-tree-right-side-view/
+
+**Pattern: Tree Depth First Search**
+
+-- https://leetcode.com/problems/path-sum/
+
+-- https://leetcode.com/problems/path-sum-ii/
+
+-- https://leetcode.com/problems/sum-root-to-leaf-numbers/
+
+-- https://leetcode.com/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/description/
+
+-- https://leetcode.com/problems/path-sum-iii/
+
+-- https://leetcode.com/problems/diameter-of-binary-tree/
+
+-- https://leetcode.com/problems/binary-tree-maximum-path-sum/
