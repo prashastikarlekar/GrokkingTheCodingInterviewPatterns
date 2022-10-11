@@ -10,10 +10,11 @@ class Node:
         self.right = None
 
 
-def pathSum(root, targetSum):
+def pathSum(root, targetSum, path=[]):
     if not root:
         return False
     if root.val == targetSum and root.left is None and root.right is None:
+        path.append(root.val)
         return True
     return pathSum(root.left, targetSum-root.val) or pathSum(root.right, targetSum-root.val)
 
