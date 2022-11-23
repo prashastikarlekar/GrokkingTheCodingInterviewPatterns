@@ -137,3 +137,13 @@ This is a collection of coding problems that summarize the grokking the coding i
 -- https://leetcode.com/problems/diameter-of-binary-tree/
 
 -- https://leetcode.com/problems/binary-tree-maximum-path-sum/
+
+**Pattern: Two Heaps**
+
+-- https://leetcode.com/problems/find-median-from-data-stream/
+
+-- https://leetcode.com/problems/sliding-window-median/
+
+-- https://leetcode.com/problems/ipo/
+
+-- https://leetcode.com/problems/find-right-interval/
