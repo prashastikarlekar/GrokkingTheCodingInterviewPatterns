@@ -147,3 +147,23 @@ This is a collection of coding problems that summarize the grokking the coding i
 -- https://leetcode.com/problems/ipo/
 
 -- https://leetcode.com/problems/find-right-interval/
+
+**Pattern: Subsets**
+
+-- https://leetcode.com/problems/subsets/
+
+-- https://leetcode.com/problems/subsets-ii/
+
+-- https://leetcode.com/problems/permutations/
+
+-- https://leetcode.com/problems/letter-case-permutation/
+
+-- https://leetcode.com/problems/generate-parentheses/
+
+-- https://leetcode.com/problems/generalized-abbreviation/
+
+-- https://leetcode.com/problems/different-ways-to-add-parentheses/
+
+-- https://leetcode.com/problems/unique-binary-search-trees-ii/
+
+-- https://leetcode.com/problems/unique-binary-search-trees/
